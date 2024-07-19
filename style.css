@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0ebf8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #333;
+}
+
+.required-field {
+  color: red;
+}
+
+p,
+label {
+  color: #444;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  outline: none;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="date"] {
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+  width: 400px;
+}
+
+.header {
+  height: 160px;
+  padding: 20px;
+  background-color: #673ab7;
+}
+
+.header h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.form-container {
+  background-color: #fdfdfd;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+}
+.form-header p {
+  color: #673ab7;
+  border-bottom: 2px solid #673ab7;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+.form-body {
+  padding: 30px;
+}
+.form-title {
+  margin-bottom: 15px;
+}
+.form-body p {
+  margin-bottom: 20px;
+}
+.box-input {
+  margin-bottom: 35px;
+}
+.block {
+  display: block;
+}
+.optional-box {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+}
+.box-input p {
+  margin-bottom: 15px;
+}
+.btn-submit {
+  background-color: #673ab7;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.btn-submit:hover {
+  background-color: #fff;
+  border: 2px solid #673ab7;
+  color: #673ab7;
+}
+footer h4 {
+  text-align: end;
+}
+@media screen and (max-width: 585px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  input[type="date"] {
+    width: 300px;
+  }
+  textarea {
+    width: 200px;
+  }
+  .form-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  input[type="date"] {
+    width: 200px;
+  }
+  textarea {
+    width: 200px;
+  }
+}
+@media screen and (orientation: landscape) {
+  input[type="text"],
+  input[type="number"],
+  input[type="file"],
+  input[type="date"] {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+}
